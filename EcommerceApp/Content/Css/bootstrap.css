@@ -34,6 +34,17 @@ video {
   display: inline-block;
   vertical-align: baseline;
 }
+.navbar-collapse {
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+@media (min-width: 768px) {
+    .navbar-right {
+        margin-top: -50px;
+    }
+}
 audio:not([controls]) {
   display: none;
   height: 0;
